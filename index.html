@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#2481cc" />
+    <title>Telegram Mini App デモ</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="card" aria-labelledby="app-title">
+        <p class="eyebrow">Telegram Mini App</p>
+        <h1 id="app-title">Telegram Mini App デモ</h1>
+        <p id="greeting" class="greeting">Telegram から開いてください。</p>
+        <p class="description">
+          Telegram のテーマに合わせて表示される、最小構成の Web App です。
+        </p>
+        <button id="alert-button" class="action-button" type="button">
+          アラートを表示
+        </button>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
